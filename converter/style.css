@@ -1,0 +1,106 @@
+body{
+
+    margin:0;
+    
+    font-family:
+    Arial,
+    "Noto Sans KR",
+    sans-serif;
+    
+    background:#f5f7fb;
+    
+    text-align:center;
+    
+    padding:40px;
+    
+    }
+    
+    
+    header h1{
+    
+    font-size:36px;
+    
+    }
+    
+    
+    .box{
+    
+    background:white;
+    
+    max-width:500px;
+    
+    margin:30px auto;
+    
+    padding:30px;
+    
+    border-radius:20px;
+    
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.1);
+    
+    }
+    
+    
+    select,
+    input{
+    
+    height:45px;
+    
+    padding:10px;
+    
+    font-size:16px;
+    
+    border-radius:10px;
+    
+    border:1px solid #ddd;
+    
+    margin:5px;
+    
+    }
+    
+    
+    
+    .row,
+    .result{
+    
+    display:flex;
+    
+    justify-content:center;
+    
+    align-items:center;
+    
+    gap:10px;
+    
+    }
+    
+    
+    #result{
+    
+    font-size:28px;
+    
+    color:#4f46e5;
+    
+    font-weight:bold;
+    
+    }
+    
+    
+    
+    @media(max-width:500px){
+    
+    .row,
+    .result{
+    
+    flex-direction:column;
+    
+    }
+    
+    
+    select,
+    input{
+    
+    width:90%;
+    
+    }
+    
+    }

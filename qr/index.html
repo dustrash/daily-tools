@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+
+    <title>무료 QR 코드 생성기</title>
+
+    <meta name="description"
+          content="텍스트와 URL을 무료로 QR 코드로 변환하고 PNG 이미지로 저장할 수 있는 QR 코드 생성기입니다.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- QR 코드 라이브러리 -->
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+    </script>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>
+        📱 QR Code Generator
+    </h1>
+
+    <p>
+        URL 또는 텍스트를 QR 코드로 변환하세요
+    </p>
+
+</header>
+
+
+
+<!-- 광고 위치 -->
+<div class="ad-box">
+    광고 영역
+</div>
+
+
+
+<main>
+
+
+<section class="card">
+
+
+    <input 
+        id="qrText"
+        type="text"
+        placeholder="https://example.com">
+
+
+    <button id="createBtn">
+        QR 생성
+    </button>
+
+
+
+    <div id="qrcode"></div>
+
+
+
+    <button id="downloadBtn">
+        PNG 다운로드
+    </button>
+
+
+</section>
+
+
+</main>
+
+
+
+
+<footer>
+
+    <p>
+        © 2026 QR Generator
+    </p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

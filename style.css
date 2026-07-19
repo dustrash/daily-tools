@@ -1,0 +1,132 @@
+*{
+    box-sizing:border-box;
+    }
+    
+    
+    body{
+    
+    margin:0;
+    
+    font-family:
+    Arial,
+    "Noto Sans KR",
+    sans-serif;
+    
+    background:#f5f7fb;
+    
+    color:#222;
+    
+    }
+    
+    
+    
+    header{
+    
+    text-align:center;
+    
+    padding:50px 20px;
+    
+    }
+    
+    
+    
+    header h1{
+    
+    font-size:36px;
+    
+    }
+    
+    
+    
+    header p{
+    
+    color:#666;
+    
+    }
+    
+    
+    
+    .ad{
+    
+    height:90px;
+    
+    max-width:728px;
+    
+    margin:20px auto;
+    
+    background:#ddd;
+    
+    display:flex;
+    
+    align-items:center;
+    
+    justify-content:center;
+    
+    }
+    
+    
+    
+    main{
+    
+    padding:20px;
+    
+    }
+    
+    
+    
+    .tools{
+    
+    display:flex;
+    
+    gap:20px;
+    
+    justify-content:center;
+    
+    flex-wrap:wrap;
+    
+    }
+    
+    
+    
+    .tool{
+    
+    background:white;
+    
+    width:300px;
+    
+    padding:30px;
+    
+    border-radius:20px;
+    
+    text-align:center;
+    
+    text-decoration:none;
+    
+    color:#222;
+    
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.1);
+    
+    transition:.2s;
+    
+    }
+    
+    
+    
+    .tool:hover{
+    
+    transform:translateY(-5px);
+    
+    }
+    
+    
+    
+    footer{
+    
+    text-align:center;
+    
+    padding:30px;
+    
+    color:#777;
+    
+    }
