@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dustrash.github.io/daily-tools/sitemap.xml
