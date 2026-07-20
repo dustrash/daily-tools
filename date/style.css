@@ -132,3 +132,30 @@ body{
     }
     
     }
+
+.info{
+    max-width:800px;
+    margin:50px auto;
+    padding:25px;
+    background:#fff;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    line-height:1.8;
+}
+
+.info h2{
+    margin-top:25px;
+    color:#4f46e5;
+}
+
+.info h3{
+    margin-top:20px;
+}
+
+.info ol{
+    padding-left:20px;
+}
+
+.info p{
+    color:#555;
+}
